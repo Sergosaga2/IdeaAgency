@@ -1,0 +1,177 @@
+.container-5 {
+  padding: 60px 20px;
+  background: #fff;
+  font-family: "OpenSans-Bold"; }
+
+.con-5_block-title {
+  text-align: center; }
+
+.con-5_title {
+  font-size: 30px;
+  color: #f4bb36;
+  margin-bottom: 50px; }
+
+.con-5_subtitle {
+  color: #6f6e6c;
+  font-size: 16px; }
+
+.con-5_content {
+  max-width: 1300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: auto; }
+
+.con-5_block {
+  position: relative;
+  max-width: 370px;
+  border: 1px solid #CACACA;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 2; }
+
+.con-5_block:nth-child(2) {
+  margin: 0 10px; }
+
+.con-5_block:hover .con-5_block-bg {
+  height: 100.5%; }
+
+.con-5_block:hover .con-5_block-title,
+.con-5_block:hover .con-5_block-specialty,
+.con-5_block:hover .con-5_block-text {
+  text-shadow: 2px 2px 2px #969696;
+  color: #fff; }
+
+.con-5_block:hover .con-5_link-1 {
+  background: url("img/con-5/facebook-hover.svg");
+  background-size: cover; }
+
+.con-5_block:hover .con-5_link-2 {
+  background: url("img/con-5/twitter-hover.svg");
+  background-size: cover; }
+
+.con-5_block:hover .con-5_link-3 {
+  background: url("img/con-5/skype-hover.svg");
+  background-size: cover; }
+
+.con-5_block:hover .con-5_link-1:hover {
+  background: url("img/con-5/facebook-1.svg");
+  background-size: cover; }
+
+.con-5_block:hover .con-5_link-2:hover {
+  background: url("img/con-5/twitter-1.svg");
+  background-size: cover; }
+
+.con-5_block:hover .con-5_link-3:hover {
+  background: url("img/con-5/skype-1.svg");
+  background-size: cover; }
+
+.con-5_block-wrapper {
+  padding: 3% 0;
+  width: 94%;
+  margin: auto;
+  text-align: center; }
+
+.con-5_block-wrapper img {
+  width: 100%; }
+
+.con-5_img1 {
+  background: url("img/con-5/man-1.png");
+  background-size: cover; }
+
+.con-5_img2 {
+  background: url("img/con-5/man-2.png");
+  background-size: cover; }
+
+.con-5_img3 {
+  background: url("img/con-5/woman-1.png");
+  background-size: cover; }
+
+.con-5_block-title,
+.con-5_block-specialty,
+.con-5_block-text {
+  color: #010101;
+  font-size: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s; }
+
+.con-5_block-title {
+  font-family: "OpenSans-Bold"; }
+
+.con-5_block-specialty {
+  font-family: "OpenSans-Light"; }
+
+.con-5_block-text {
+  color: #6f6e6c;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 30px; }
+
+.con-5_block-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 150px;
+  margin: auto;
+  margin-bottom: 40px; }
+
+.con-5_link-1,
+.con-5_link-2,
+.con-5_link-3 {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s; }
+
+.con-5_link-1 {
+  background: url("img/con-5/facebook.svg");
+  background-size: cover; }
+
+.con-5_link-2 {
+  width: 30px;
+  height: 30px;
+  background: url("img/con-5/twitter.svg");
+  background-size: cover; }
+
+.con-5_link-3 {
+  width: 30px;
+  height: 30px;
+  background: url("img/con-5/skype.svg");
+  background-size: cover; }
+
+.con-5_block-bg {
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  width: 100.75%;
+  height: 2%;
+  background: url("img/con-3/bg.jpg") center center;
+  background-size: cover;
+  z-index: -1;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+@media (max-width: 767px) {
+  .con-5_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .con-5_block:not(:last-child) {
+    margin-bottom: 30px; } }

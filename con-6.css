@@ -1,0 +1,289 @@
+.container-6 {
+  width: 100%;
+  padding: 60px 20px; }
+
+.con-6_block-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px; }
+
+.con-6_title {
+  font-size: 30px;
+  font-family: "OpenSans-Bold";
+  text-transform: uppercase;
+  margin-bottom: 30px; }
+
+.con-6_subtline {
+  font-size: 20px;
+  font-family: "OpenSans-Bold"; }
+
+.con-6_texttline {
+  font-size: 16px;
+  font-style: italic; }
+
+.con-6_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  max-width: 1300px;
+  margin: auto; }
+
+.con-6_block-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  width: 60%; }
+
+.input-block {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  z-index: 2; }
+
+.input-block-stick {
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  margin-top: -2px;
+  background: #fff;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.input-block-stick_active {
+  width: 100%; }
+
+.input-block input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #c1c1c1;
+  padding: 10px 20px;
+  background: transparent;
+  color: #fff; }
+
+.textarea-block {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2; }
+
+.textarea-block textarea {
+  width: 100%;
+  border: 1px solid #c1c1c1;
+  padding: 10px 20px;
+  background: transparent;
+  color: #fff;
+  resize: none; }
+
+.textarea-block textarea::-webkit-scrollbar {
+  width: 4px; }
+
+.textarea-block textarea::-webkit-scrollbar-thumb {
+  background: #c1c1c1; }
+
+.input-placeholder-name,
+.input-placeholder-email,
+.input-placeholder-phone,
+.textarea-placeholder {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #c1c1c1;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: -1; }
+
+.input-placeholder_active,
+.textarea-placeholder_active {
+  margin-top: -34px;
+  margin-left: -10px;
+  color: #fff; }
+
+.con-6_block-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 35px; }
+
+.con-6_btn {
+  width: 170px;
+  height: 48px;
+  border-radius: 5px;
+  color: #000;
+  background: -webkit-linear-gradient(210deg, #abbaab, #ffffff, #abbaab);
+  background: -o-linear-gradient(210deg, #abbaab, #ffffff, #abbaab);
+  background: linear-gradient(-120deg, #abbaab, #ffffff, #abbaab);
+  background-size: 200%;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.con-6_btn:hover {
+  background-position: right;
+  background-image: -webkit-linear-gradient(330deg);
+  background-image: -o-linear-gradient(330deg);
+  background-image: linear-gradient(120deg); }
+
+.con-6_block-2 {
+  width: 40%;
+  padding: 0 70px;
+  color: #fff; }
+
+.con-6_block-2_title {
+  margin-top: -6px; }
+
+.con-6_block-2_title,
+.con-6_follow-title {
+  font-family: "OpenSans-Bold";
+  font-size: 20px;
+  margin-bottom: 26px; }
+
+.con-6_block-2_phone,
+.con-6_block-2_email,
+.con-6_block-2_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-family: "OpenSans-Light";
+  font-size: 16px; }
+
+.con-6_block-2_title img,
+.con-6_block-2_phone img,
+.con-6_block-2_email img,
+.con-6_block-2_address img {
+  width: 20px;
+  margin-right: 20px; }
+
+.con-6_block-2_phone,
+.con-6_block-2_email {
+  margin-bottom: 20px; }
+
+.con-6_follow {
+  max-width: 240px;
+  margin-top: 50px; }
+
+.con-6_follow-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%; }
+
+.con-6_follow-img1,
+.con-6_follow-img2,
+.con-6_follow-img3,
+.con-6_follow-img4,
+.con-6_follow-img5 {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+
+.con-6_follow-img1 {
+  background: url("img/con-6/facebook.svg");
+  background-size: cover; }
+
+.con-6_follow-img1:hover {
+  background: url("img/con-6/facebook-hover.svg");
+  background-size: cover; }
+
+.con-6_follow-img2 {
+  background: url("img/con-6/basketball.svg");
+  background-size: cover; }
+
+.con-6_follow-img2:hover {
+  background: url("img/con-6/basketball-hover.svg");
+  background-size: cover; }
+
+.con-6_follow-img3 {
+  background: url("img/con-6/twitter.svg");
+  background-size: cover; }
+
+.con-6_follow-img3:hover {
+  background: url("img/con-6/twitter-hover.svg");
+  background-size: cover; }
+
+.con-6_follow-img4 {
+  background: url("img/con-6/insta.svg");
+  background-size: cover; }
+
+.con-6_follow-img4:hover {
+  background: url("img/con-6/insta-hover.svg");
+  background-size: cover; }
+
+.con-6_follow-img5 {
+  background: url("img/con-6/google-plus.svg");
+  background-size: cover; }
+
+.con-6_follow-img5:hover {
+  background: url("img/con-6/google-plus-hover.svg");
+  background-size: cover; }
+
+footer {
+  widows: 100%;
+  height: 60px;
+  padding: 0 20px;
+  background: #000; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  max-width: 1300px;
+  height: 100%;
+  margin: auto; }
+
+.footer-content {
+  color: #fff;
+  font-family: "OpenSans-Light"; }
+
+@media (max-width: 767px) {
+  .con-6_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+  .con-6_block-1 {
+    width: 100%;
+    margin-bottom: 50px; }
+  .con-6_block-btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .con-6_block-2 {
+    width: 100%;
+    padding: 0; }
+  .con-6_follow {
+    text-align: center;
+    margin: auto;
+    margin-top: 50px; } }
